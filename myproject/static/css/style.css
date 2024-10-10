@@ -13,3 +13,14 @@ body{
 h1,p {
     text-align: center;
 }
+nav{
+    height: 30%;
+    background-color: aqua;  
+    padding: 1.5%;
+}
+a{
+    margin: 1%;
+    padding: 1%;
+    font-size: 30px;
+
+}
