@@ -4,6 +4,18 @@
  Pages Lists
 {% endblock tite %}
 {% block content %}
-<h1> Pages Lists</h1>
+<section>
+    <h1> Pages</h1>
+
+    {% for p in pages %}
+        <article class ="post">
+            <h2>{{p.titre}}</h2>
+            <p>{{p.date}}</p>
+            <p>{{p.corp}}</p>
+        </article>
+
+    {% endfor %}
+</section>
+
 
 {% endblock content %}
