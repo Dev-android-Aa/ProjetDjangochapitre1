@@ -1,0 +1,16 @@
+
+{% extends "layout.html" %}
+
+{% block tite %}
+ {{page.titre}}
+{% endblock tite %}
+
+{% block content %}
+<section>
+    <h1> {{page.titre}}</h1>
+    <p>{{page.date}}</p>
+    <p>{{page.corp}}</p>      
+</section>
+
+
+{% endblock content %}
