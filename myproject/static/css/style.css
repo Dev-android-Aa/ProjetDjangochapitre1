@@ -24,3 +24,8 @@ a{
     font-size: 30px;
 
 }
+.image_page{
+    display: block;
+    width: 50%;
+    max-width: 30px;
+}
